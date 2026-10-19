@@ -1,0 +1,16 @@
+{
+  "name": "sistema-de-gestao-de-clinica-veterinaria",
+  "version": "1.0.0",
+  "description": "Enterprise-grade veterinary clinic management core engine with appointment scheduling, electronic health records, and immunization tracking.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/**/*.test.js"
+  },
+  "author": "Felipe Madison",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "5.4.5"
+  }
+}
